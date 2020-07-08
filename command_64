@@ -1,0 +1,1 @@
+[IO.File]::WriteAllBytes(".\file.zip",[Convert]::FromBase64String([char[]][IO.File]::ReadAllBytes(".\file.txt")))
